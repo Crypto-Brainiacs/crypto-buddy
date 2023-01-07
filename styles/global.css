@@ -1,0 +1,277 @@
+@tailwind base;
+
+.btn {
+  @apply text-white px-12 py-4 ml-4 bg-primary-Default sm:rounded-xl transition-colors duration-300 hover:bg-primary-Hover;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /*background-color: #f8f9fa;*/
+  font-family:Gabriela;
+  font-weight: regular;
+}
+
+.mln{
+  margin-left:-1px;
+}
+
+.header2 img{
+  width:100%;
+  border-radius:5px;
+}
+
+.header2 a{
+  font-size:11px;
+  cursor: pointer;
+  /*text-align: center;*/
+  font-weight: bold;
+  color:#000;
+}
+.header2 a:hover{
+  color:#01d923;
+}
+
+.bg-footer{
+  background:#007bff;
+}
+
+.page-container{
+  display: flex;
+  height:100vh;
+  flex-direction: column;
+}
+
+.bg-danger-light{
+  background-color: #1877f2;
+}
+
+.bg-success-light{
+  background-color: #1877f2;
+}
+
+.bg-notify-light{
+  background-color: #1877f2;
+}
+
+.primarybtn{
+  background:#fff;
+  padding: 7px 20px;
+  border: 1px solid #1877f2;
+  border-radius:30px;
+  color:blue;
+}
+
+.friendbtn{
+  background:#fff;
+  padding: 7px 25px;
+  border: 1px solid #42d4f4;
+  /*border-radius:30px;*/
+  color:#1877f2;
+}
+
+.primarybtn a{
+  text-decoration: none;
+  background: #01d923;
+  color:#000;
+  background: transparent;
+}
+.secondarybtn{
+  background:#1877f2;
+  outline: none;
+  padding: 7px 20px;
+  color:#fff;
+  border: none;
+  border-radius:30px;
+}
+
+.submitbtn{
+  background:#1877f2;
+  outline: none;
+  padding: 7px 20px;
+  color:#fff;
+  border: none;
+  border-radius:30px;
+}
+
+.secondarybtn a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.mob-navbar{
+  position: absolute;
+  top:0;
+  right:0;
+  background:#fff;
+  width:300px;
+  height:100vh;
+}
+.mob-navbar a{
+  color:#000;
+}
+/*.mob-navbar i{
+  font-size:20px;
+}*/
+
+.primarybtn a:hover, .secondarybtn a:hover{
+  color:#fff;
+  text-decoration: none;
+}
+.primarybtn:hover{
+  border: 1px solid #000;
+}
+.secondarybtn:hover{
+  border: 1px solid #fff;
+}
+
+.subtitle1 {
+  font-weight: bold;
+  @apply text-xs;
+  @apply lg:text-sm;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.subtitle2 {
+  font-weight: bold;
+  @apply text-xs;
+  @apply lg:text-sm;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.body1 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.body2 {
+  @apply text-xs;
+  @apply lg:text-sm;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.small1 {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.small2 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+}
+
+.small3 {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+
+.inpdropdown{
+  position: fixed;
+  top:6.7%;
+  right:2%;
+  width:250px;
+  /*background:red;*/
+}
+
+.inpdropdown2{
+  position:fixed;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  top:8%;
+  right:2%;
+}
+
+.initials {
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.sideBarShadow {
+  box-shadow: 4px 0px 16px rgba(16, 30, 115, 0.08);
+}
+
+.bg-banner {
+  background-image: url('/images/homeBanner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hostelPanel::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 46px;
+    letter-spacing: 0.2px;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  h5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+  }
+
+  h6 {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+
+  .file-drop {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.file-drop {
+    height: 100% !important;
+    width: 100%;
+  }

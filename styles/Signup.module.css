@@ -1,0 +1,136 @@
+.main{
+	width:100%;
+	height:100%;
+	background:#fff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.main img{
+	width:400px;
+}
+.maintext{
+	color:#000;
+	width:50%;
+	font-size:19px;
+	font-weight:500;
+}
+.back{
+	position: absolute;
+	top:10%;
+	left:7%;
+}
+.forgot{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	width:30%;
+	margin-top:23px;
+	margin-bottom:5px;
+}
+.forgot a{
+	color:#000;
+}
+
+.forgot a:last-child{
+	color:#1877f2;
+}
+
+
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width:100%;
+}
+.buttons button{
+	width:30%;
+}
+
+.inputs{
+	width:50%;
+}
+.inputs > div:first-child{
+	font-weight:550;
+	font-size:16px;
+}
+.buttons input{
+	width:100%;
+	border: solid 1px #000;
+	color: #1877f2;
+	outline: none;
+}
+.inputsgender{
+	width:50%;
+	/*border: solid 1px #000;*/
+	/*color: #1877f2;*/
+	outline: none;
+}
+.inputsgender select{
+	width:100%;
+	border: solid 1px #000;
+	/*color: #1877f2;*/
+	outline: none;	
+}
+.inputsgender > div:first-child{
+	font-weight:550;
+	font-size:16px;
+}
+.buttons textarea{
+	width:90%;
+	resize: none;
+	border: solid 1px #000;
+	color: #1877f2;
+	outline: none;
+}
+.buttons ::placeholder{
+	color:#bbb;
+	/*font-weight:600;*/
+}
+
+@media only screen and (max-width: 991px){
+	.maintext{
+		width:70%;
+	}
+	.main{
+		height:100%;
+	}
+	.buttons button{
+		width:50%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.maintext{
+		width:90%;
+	}
+	.buttons button{
+		width:60%;
+	}
+	.forgot{
+		width:100%;
+		margin:5px;
+		margin-top:28px;
+	}
+	.inputs, .inputsgender{
+		width:70%;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.main img{
+		width:300px;
+	}
+	.main{
+		height:100%;
+	}
+	.buttons button{
+		width:90%;
+	}
+	.inputs, .inputsgender{
+		width:90%;
+	}
+}

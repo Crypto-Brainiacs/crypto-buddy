@@ -1,0 +1,109 @@
+.main{
+	width:100%;
+	height:100%;
+	background:#fff;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.main img{
+	width:400px;
+}
+.maintext{
+	color:#000;
+	width:50%;
+	font-size:19px;
+	font-weight:500;
+}
+.back{
+	position: absolute;
+	top:10%;
+	left:7%;
+}
+.forgot{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	width:30%;
+	margin-top:23px;
+	margin-bottom:5px;
+}
+.forgot a{
+	color:#000;
+}
+
+.forgot a:last-child{
+	color:#1877f2;
+}
+
+
+
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width:100%;
+}
+.buttons button{
+	width:30%;
+}
+
+.buttons input{
+	width:30%;
+	border: solid 1px #1877f2;
+	color: #1877f2;
+	outline: none;
+}
+.buttons ::placeholder{
+	color:#1877f2;
+	font-weight:600;
+}
+
+@media only screen and (max-width: 991px){
+	.maintext{
+		width:70%;
+	}
+	.main{
+		height:100%;
+	}
+	.buttons button{
+		width:60%;
+	}
+	.buttons input{
+		width:60%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.maintext{
+		width:90%;
+	}
+	.buttons button{
+		width:60%;
+	}
+	.buttons input{
+		width:60%;
+	}
+	.forgot{
+		width:100%;
+		margin:5px;
+		margin-top:28px;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.main img{
+		width:300px;
+	}
+	.main{
+		height:102vh;
+	}
+	.buttons button{
+		width:90%;
+	}
+	.buttons input{
+		width:90%;
+	}
+}

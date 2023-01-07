@@ -1,0 +1,323 @@
+.post1_wrap{
+	width:100%;
+	height:110vh;
+	display: flex;
+	justify-content:center;
+	align-items: flex-start;
+	flex-direction: column;
+	background:#fff;
+	margin-top:20px;
+}
+.post1_name{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+	font-weight:700;
+}
+.post1_user_img{
+	width:60px;
+	height:60px;
+	border-radius: 100%;
+	background-image: url('/images/crb23.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.post2_user_img img{
+	width:60px;
+	height:60px;
+	border-radius: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	/*background-image: url('/images/crb23.jpg');
+	background-size: cover;
+	background-position: center;*/
+}
+.post1_user_img_text > div:first-child{
+	font-size:20px;
+}
+.post1_user_img_text > div:last-child{
+	font-size:10px;
+}
+.write_up > div:first-child{
+	color:#1877f2;
+	font-size:20px;
+}
+.post1_img_1{
+	width:80%;
+	display: flex;
+	flex: 1;
+	background-image: url('/images/crb56.jpg');
+	background-size: cover;
+	padding:5% 0;
+	background-position: center;
+}
+.post1_img_2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex:1;
+	width:80%;
+	/*background:red;*/
+}
+.post1_img_2 > div{
+	margin:0 1% 0 0;
+}
+.post1_img_2 > div:last-child{
+	margin:0;
+}
+.post1_img_21{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb13.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post1_img_22{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb14.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post1_img_23{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb15.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.reactions{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	align-items: center;
+}
+
+.reactions i{
+	font-size:15px;
+}
+.reactions > div{
+	background:#f9f9f9;
+	width:100%;
+	text-align: center;
+}
+
+/*second post*/
+
+.post2_img_1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex:1;
+	width:80%;
+}
+.post2_img_1 > div{
+	margin:0 1% 0 0;
+}
+.post2_img_1 > div:last-child{
+	margin:0;
+}
+
+.post2_img_11{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb16.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post2_img_12{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb17.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+
+
+.post2_img_21{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb18.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post2_img_22{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb19.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post2_img_23{
+	width:30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb20.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+
+
+.post3_wrap{
+	width:100%;
+	height:110vh;
+	display: flex;
+	justify-content:center;
+	align-items: flex-start;
+	flex-direction: column;
+	background:#fff;
+	margin-top:20px;
+}	
+.post3_img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex:1;
+	width: 80%;
+}
+.post3_img_1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex:4;
+	width:80%;
+	height:100%;
+	/*background:red;*/
+}
+.post3_img_11{
+	/*width:30%;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	flex-direction: row;
+	width:100%;
+}
+
+.post3_img_11 img{
+	width:100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 1;
+	height:100%;
+}
+
+.post3_img_111{
+	width:100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb20.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post3_img_112{
+	width:100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb20.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post3_img_11 > div{
+	flex:1;
+	margin:0 1% 0 0;
+}
+
+.post3_img_11 > div:last-child{
+	flex:1;
+	margin:0;
+}
+
+.post3_img_12{
+	width:100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex: 1;
+	background-image: url('/images/crb20.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+.post3_img_2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*width: 20%;*/
+	flex:1;
+	background-image: url('/images/crb20.jpg');
+	background-size: cover;
+	background-position: center;
+	height:100%;
+}
+
+
+@media only screen and (max-width: 600px){
+	.post1_img_1, .post2_img_1, .post3_img{
+		width:75%;
+	}
+}
+@media only screen and (max-width: 576px){
+	.post1_img_1, .post2_img_1, .post3_img{
+		width:70%;
+	}
+
+	.post1_img_2, .reactions{
+		width:70%;
+	}
+}
+@media only screen and (max-width: 400px){
+	.post1_img_1, .post2_img_1, .post3_img{
+		width:62%;
+	}
+	.post1_img_2, .reactions{
+		width:66%;
+	}
+}
